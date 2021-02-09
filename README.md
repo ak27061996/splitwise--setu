@@ -18,10 +18,10 @@ work to do
 3) /balance 
 4) /add_expense
 5) /list of all transaction
-
+```
 
 Model Design: models.py
-
+```
 User:
 userid, name , email
 
@@ -36,4 +36,11 @@ Id,  Group_id, user_id,
 Expenses_In_group:
 Group_id, user_id, expenses, meta -> text
 
+
+SplitTransact: app contains all endpoint
 ```
+### view.py 
+has business logic
+
+
+urls.py has endpoint.
